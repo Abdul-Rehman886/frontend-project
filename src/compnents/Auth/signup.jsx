@@ -2,7 +2,7 @@ const Signup = ({ setAuth }) => {
   return (
     <>
       <div className="h-full w-full flex justify-center items-center">
-        <div className=" h-3/4  w-1/4 bg-gray-400 flex flex-col">
+        <div className=" h-3/4  w-1/4 bg-black flex flex-col">
           <h1 className="flex justify-center  m-2 p-2 font-bold text-white text-4xl ">
             Signup
           </h1>
@@ -49,7 +49,7 @@ const Signup = ({ setAuth }) => {
               required
             />
             <br />
-            <p>
+            <p className="text-white">
               Already have an account?{" "}
               <span
                 className="hover:text-blue-500 cursor-pointer"
