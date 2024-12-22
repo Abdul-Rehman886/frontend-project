@@ -1,11 +1,16 @@
+import { Link } from "react-router-dom";
+
 const Sidebar = () => {
   return (
     <>
       <div className=" flex justify-end h-full w-1/6 pt-20 px-2 bg-black ">
         <div className="w-full h-2/5 flex flex-col items-start justify-between">
-          <h1 className="text-xl w-full rounded-md text-white p-2 hover:bg-white hover:text-gray-800">
+          <Link
+            to="products"
+            className="text-xl w-full rounded-md text-white p-2 hover:bg-white hover:text-gray-800"
+          >
             Product Management
-          </h1>
+          </Link>
           <h1 className="text-xl w-full rounded-md text-white p-2 hover:bg-white hover:text-gray-800">
             Order Management
           </h1>
